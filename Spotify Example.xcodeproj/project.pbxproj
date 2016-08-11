@@ -15,8 +15,6 @@
 		6E55E9E81D5CF8B500E57CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E55E9E71D5CF8B500E57CED /* Assets.xcassets */; };
 		6E55E9EB1D5CF8B500E57CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E55E9E91D5CF8B500E57CED /* LaunchScreen.storyboard */; };
 		6E55E9F71D5CFA6500E57CED /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55E9F61D5CFA6500E57CED /* Spotify.framework */; };
-		6E55E9F91D5CFCA000E57CED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55E9F81D5CFCA000E57CED /* AVFoundation.framework */; };
-		6E55E9FB1D5CFCB100E57CED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55E9FA1D5CFCB100E57CED /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +30,6 @@
 		6E55E9EA1D5CF8B500E57CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E55E9EC1D5CF8B500E57CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E55E9F61D5CFA6500E57CED /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
-		6E55E9F81D5CFCA000E57CED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6E55E9FA1D5CFCB100E57CED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E55E9FB1D5CFCB100E57CED /* SystemConfiguration.framework in Frameworks */,
-				6E55E9F91D5CFCA000E57CED /* AVFoundation.framework in Frameworks */,
 				6E55E9F71D5CFA6500E57CED /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,8 +47,6 @@
 		6E55E9CC1D5CF8B400E57CED = {
 			isa = PBXGroup;
 			children = (
-				6E55E9FA1D5CFCB100E57CED /* SystemConfiguration.framework */,
-				6E55E9F81D5CFCA000E57CED /* AVFoundation.framework */,
 				6E55E9D71D5CF8B500E57CED /* Spotify Example */,
 				6E55E9D61D5CF8B400E57CED /* Products */,
 			);
